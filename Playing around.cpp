@@ -15,17 +15,17 @@ int main()
   return 0;
 }
 switch (op) {
-case "+":
+case '+':
 	cout << num1 << "+" << num2 << "=" << (num1 + num2);
 	break;
-case "-":
+case '-':
 	cout << num1 << "-" << num2 << "=" << (num1 - num2);
 	break;
 	break;
-case "*":
+case '*':
 	cout << num1 << "*" << num2 << "=" << (num1 * num2);
 	break;
-case "/":
+case '/':
 	if (num2 != 0.0)
 		cout << num1 << "/" << num2 << "=" << (num1 / num2);
 	else
